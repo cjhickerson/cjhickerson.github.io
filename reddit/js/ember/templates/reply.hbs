@@ -1,0 +1,17 @@
+{{#if comment.data.body}}
+    <div class="comment-body">
+        {{breaklines comment.data.body}}
+        <div class="text-muted">
+            <span class="btn btn-xs btn-default disabled"><i class="fa fa-user"></i> {{comment.data.author}}</span>
+        </div>
+    </div>
+    {{#each comment in comment.data.replies.data.children}}
+        {{#if comment.data.body}}
+        <div class="row">
+            <div class="col-md-11 col-md-offset-1 reply">
+                {{render "reply" comment}}
+            </div>
+        </div>
+        {{/if}}
+    {{/each}}
+{{/if}}

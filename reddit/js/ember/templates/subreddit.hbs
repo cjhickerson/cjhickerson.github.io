@@ -1,0 +1,16 @@
+{{#each item in data.children}}
+    {{partial 'link'}}
+{{/each}}
+
+<footer class="footer">
+    <div class="row">
+        <div class="col-md-12">
+            <hr/>
+            {{#if App.isLoading}}
+            <a class="btn btn-block btn-lg btn-default disabled"><i class="fa fa-plus fa-spin"></i> LOADING</a>
+            {{else}}
+            <a class="btn btn-block btn-lg btn-primary" {{action 'fetchMore' model}}><i class="fa fa-plus"></i> MORE LINKS</a>
+            {{/if}}
+        </div>
+    </div>
+</footer>
