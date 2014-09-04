@@ -1,0 +1,96 @@
+body {
+    font-weight: 300;
+}
+
+a {
+    cursor: pointer;
+}
+
+header {
+    margin:20px 0;
+}
+
+footer {
+    padding: 15px 10px;
+}
+
+/* Put your CSS here */
+.site-wrapper-inner {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.link-row {
+    padding: 20px;
+}
+
+.link-row:hover {
+}
+
+.link-row h4 {
+    margin: 0px 10px 5px;
+    line-height: 1.3em;
+}
+
+.link-row h4 a {
+}
+
+.link-row p {
+    font-size: 14px;
+    margin: 5px 10px;
+}
+
+.link-row img {
+    border-radius: 3px;
+}
+
+.link-row .img-placeholder {
+    color: #fff;
+    background: #eee;
+    text-align: center;
+    width:70px;
+    padding: 8px 0;
+    font-size: 35px;
+    border: 2px solid #eee;
+    border-radius: 3px;
+}
+
+.link-number {
+    color:#eee;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: right;
+}
+
+.bg-transition {
+    transition: background 0.5s 0s, color 0.5s 0s, border 0.5s 0s;
+}
+
+.reply-arrow {
+    padding: 30px 0;
+    font-size: 30px;
+    color: #eee;
+}
+
+.comment-body {
+    padding: 5px 0;
+    margin: 20px 0;
+    line-height: 1.6em;
+    font-size: 14px;
+}
+
+.reply .comment-body {
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+
+.link-row:hover .reply-arrow {
+    color:#fff;
+}
+
+.btn.btn-nolink {
+    background: #eee;
+    color: #2c3e50;
+}
