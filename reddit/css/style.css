@@ -42,7 +42,7 @@ footer {
 
 .link-row img {
     border-radius: 3px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .link-row .img-placeholder {
@@ -54,7 +54,7 @@ footer {
     font-size: 35px;
     border: 2px solid #eee;
     border-radius: 3px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .link-number {
