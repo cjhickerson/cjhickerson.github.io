@@ -11,7 +11,7 @@ header {
 }
 
 footer {
-    padding: 15px 10px;
+    padding: 10px 0px;
 }
 
 /* Put your CSS here */
@@ -42,19 +42,28 @@ footer {
 
 .link-row img {
     border-radius: 3px;
-    margin-bottom: 10px;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .link-row img {
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 5px;
+  }
 }
 
 .link-row .img-placeholder {
     color: #fff;
     background: #eee;
     text-align: center;
-    width:70px;
-    padding: 8px 0;
-    font-size: 35px;
+    width:100%;
+    padding: 0;
+    font-size: 36px;
     border: 2px solid #eee;
     border-radius: 3px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .link-number {
