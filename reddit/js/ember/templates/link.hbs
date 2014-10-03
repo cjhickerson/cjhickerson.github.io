@@ -1,13 +1,13 @@
 {{#with item.data}}
 <div class="row link-row">
-    <div class="col-md-1">
+    <div class="col-md-2">
         {{#if thumbnail}}
         <a {{bind-attr href="url"}}><img {{bind-attr src="thumbnail"}}/></a>
         {{else}}
         <a {{bind-attr href="url"}}>{{link-image thumbnail}}</a>
         {{/if}}
     </div>
-    <div class="col-md-11">
+    <div class="col-md-10">
         <h4><a {{bind-attr href="url"}}>{{{title}}}</a></h4>
         <p class="text-muted">
             {{#link-to 'subreddit' subreddit}}<span class="btn btn-xs btn-primary"><i class="fa fa-folder"></i> {{subreddit}}</span>{{/link-to}} &nbsp;|&nbsp; 
@@ -21,4 +21,5 @@
         </p>
     </div>
 </div>
+<hr>
 {{/with}}
