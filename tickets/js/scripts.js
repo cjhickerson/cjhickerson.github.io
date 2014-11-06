@@ -46,6 +46,11 @@ tickets.test = function(ticket) {
 };
 
 $(function() {
+  $.getJSON('/tickets/bannedWords.json', function(data) {
+    tickets.bannedWords = data.bannedWords;
+    tickets.reasonsBanned = data.reasonsBanned;
+  });
+  
   $('#test').on('click', function() {
     if ($(this).hasClass('visible')) {
       var value = $('#ticket').val();

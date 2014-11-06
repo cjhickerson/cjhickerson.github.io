@@ -1,0 +1,37 @@
+{
+  'banned words' : [
+    {
+      word: "likely",
+      reason: "vague"
+    },
+    {
+      word: "probably",
+      reason: "vague"
+    },
+    {
+      word: "usually",
+      reason: "vague"
+    },
+    {
+      word: "generally",
+      reason: "vague"
+    },
+    {
+      word: "just",
+      reason: "presuming scope"
+    },
+    {
+      word: "simple",
+      reason: "presuming scope"
+    },
+    {
+      word: "obvious",
+      reason: "nothing is obvious"
+    }
+  ],
+  'reasons' :{
+    'vague' : "Things are never what they seem. By saying this we are assuming too much about the current state of the project. If you know more, say more. If you don't then go and find out.",
+    'presuming scope' : "This word places presuppositions onto the scope of a ticket. Explain what should happen and how. Don't dwell on presumed difficulty.",
+    'nothing is obviuos' : "Nothing is obvious. Ever. Explain exactly what you want to happen."
+  }
+}
